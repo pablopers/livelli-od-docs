@@ -5,9 +5,9 @@ import sys, os
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-sys.path.append(os.path.abspath(os.pardir))
+# sys.path.append(os.path.abspath(os.pardir))
 
-__version__ = '1.0'
+# __version__ = '1.0'
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -33,4 +33,4 @@ def setup(app):
 #latex_logo = "fpa_digital360_negativo.png"
 #html_logo = "fpa_digital360_negativo.png"
 
-templates_path = ['_templates']
+# templates_path = ['_templates']
